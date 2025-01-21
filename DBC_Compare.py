@@ -6,7 +6,6 @@ import xlrd
 import xlwt
 import re
 import copy
-import tkinter
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
@@ -341,7 +340,7 @@ def generateCT():
 #################################################################################################################
 
 if __name__ == '__main__':
-    window = tkinter.Tk()
+    window = Tk()
     window.title('DBC Compare Tool')
     window.geometry('900x150')  # 设定窗口的大小(长 * 宽),这里的乘是小x
     window.resizable(0,0)       # 防止用户调整尺寸
